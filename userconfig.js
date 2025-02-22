@@ -16,7 +16,7 @@ const default_config = {
   openLastVisitedTab: true,
   tabs: [
     {
-      name: "myself",
+      name: "",
       background_url: "src/img/banners/cbg-02.gif",
       categories: [
         {
@@ -37,8 +37,9 @@ const default_config = {
             {
               name: "scoop",
               url: "https://scoop.sh/",
-              icon: "ice-cream-2"
-            }
+              icon: "ice-cream-2",
+              icon_color: palette.yellow,
+            },
           ],
         },
       ],

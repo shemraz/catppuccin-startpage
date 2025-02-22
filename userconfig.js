@@ -16,9 +16,32 @@ const default_config = {
   openLastVisitedTab: true,
   tabs: [
     {
-      name: "",
+      name: "shemraz",
       background_url: "src/img/banners/cbg-09.gif",
       categories: [
+        {
+          name: "study",
+          links: [
+            {
+              name: "archive.org",
+              url: "https://archive.org/",
+              icon: "archive",
+              icon_color: palette.lavender
+            },
+            {
+              name: "Bodleian SOLO",
+              url: "https://solo.bodleian.ox.ac.uk/discovery/search?vid=44OXF_INST:SOLO&lang=en",
+              icon: "book",
+              icon_color: palette.lavender
+            },
+            {
+              name: "Oxford Self-Service",
+              url: "https://www.ox.ac.uk/students/selfservice",
+              icon: "user-circle",
+              icon_color: palette.lavender
+            }
+          ]
+        },
         {
           name: "faves",
           links: [
@@ -50,29 +73,6 @@ const default_config = {
               name: "catppuccin",
               url: "http://catppuccin.com/",
               icon: "cat",
-              icon_color: palette.lavender
-            }
-          ]
-        },
-        {
-          name: "study",
-          links: [
-            {
-              name: "archive.org",
-              url: "https://archive.org/",
-              icon: "archive",
-              icon_color: palette.lavender
-            },
-            {
-              name: "Bodleian SOLO",
-              url: "https://solo.bodleian.ox.ac.uk/discovery/search?vid=44OXF_INST:SOLO&lang=en",
-              icon: "book",
-              icon_color: palette.lavender
-            },
-            {
-              name: "Oxford Self-Service",
-              url: "https://www.ox.ac.uk/students/selfservice",
-              icon: "user-circle",
               icon_color: palette.lavender
             }
           ]

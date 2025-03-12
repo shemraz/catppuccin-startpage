@@ -78,6 +78,8 @@ class Tabs extends Component {
       this.resources.icons.tabler,
       this.resources.fonts.roboto,
       this.resources.fonts.raleway,
+      this.resources.fonts.inter,
+      this.resources.fonts.jetbrainsmono,
       this.resources.libs.awoo,
     ];
   }
@@ -141,7 +143,7 @@ class Tabs extends Component {
       }
 
       .categories ul:nth-child(1) {
-          --flavour: ${CONFIG.palette.green};
+          --flavour: ${CONFIG.palette.lavender};
       }
 
       .categories ul:nth-child(2) {
@@ -184,7 +186,7 @@ class Tabs extends Component {
       .categories ul .links a {
           color: ${CONFIG.palette.text};
           text-decoration: none;
-          font: 700 18px 'Roboto', sans-serif;
+          font: 400 18px 'JetBrains Mono', monospace;
           transition: all .2s;
           display: inline-flex;
           align-items: center;
@@ -234,7 +236,7 @@ class Tabs extends Component {
       }
 
       .categories .links li:not(:last-child) {
-          box-shadow: 0 1px 0 ${CONFIG.palette.text};
+          box-shadow: 0 1px 0 ${CONFIG.palette.crust};
           padding: 0 0 .5em 0;
           margin-bottom: 1.5em;
       }
@@ -247,7 +249,7 @@ class Tabs extends Component {
           font-weight: 600;
           letter-spacing: 1px;
           text-transform: uppercase;
-          font-family: 'Raleway', sans-serif;
+          font-family: 'Inter', sans-serif;
       }
 
       .categories .link-icon {
